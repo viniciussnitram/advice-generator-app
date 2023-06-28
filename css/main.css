@@ -1,0 +1,47 @@
+:root {
+    /* Primary Colors */
+    --light-cyan: #CEE3E9;
+    --neon-green: #52FFA8;
+    /* Neutral Colors */
+    --grayish-blue: #4E5D73;
+    --dark-grayish-blue: #323A49;
+    --dark-blue: #1F2632;
+}
+
+* {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+body {
+    background-color: var(--dark-blue);
+}
+
+main {
+    background-color: var(--dark-grayish-blue);
+}
+
+section h3 {
+    color: var(--neon-green);
+}
+
+section p {
+    color: var(--light-cyan);
+}
+
+section button {
+    background-color: var(--neon-green);
+    background-image: url(/images/icon-dice.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    outline: none;
+    width: 60px;
+}
+
+section button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 35px rgba(82, 255, 168, 0.7);
+}
