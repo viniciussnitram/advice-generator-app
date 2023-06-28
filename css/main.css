@@ -15,18 +15,50 @@
 
 body {
     background-color: var(--dark-blue);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+    gap: 50px;
 }
 
 main {
     background-color: var(--dark-grayish-blue);
+    border-radius: 15px;
+    width: 550px;
+    margin: 0 auto;
 }
 
-section h3 {
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+section h5 {
     color: var(--neon-green);
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin: 50px 0 0 0;
+    text-transform: uppercase;
 }
 
 section p {
+    display: inline;
     color: var(--light-cyan);
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0;
+    max-width: 460px;
+    text-align: center;
+}
+
+section img {
+    margin-top: 20px;
 }
 
 section button {
@@ -38,10 +70,24 @@ section button {
     border-radius: 50%;
     height: 60px;
     outline: none;
+    position: relative;
+    top: 26px;
     width: 60px;
 }
 
 section button:hover {
     cursor: pointer;
     box-shadow: 0 0 35px rgba(82, 255, 168, 0.7);
+}
+
+footer {
+    bottom: 0;
+    color: var(--light-cyan);
+    position: fixed;
+    text-align: center;
+    width: 95vw;
+}
+
+footer a {
+    color: var(--neon-green);
 }
