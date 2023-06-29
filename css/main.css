@@ -19,15 +19,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 95vh;
-    gap: 50px;
+    gap: auto;
+    height: 98vh;
 }
 
 main {
     background-color: var(--dark-grayish-blue);
     border-radius: 15px;
-    width: 550px;
+    height: 338px;
     margin: 0 auto;
+    width: 550px;
 }
 
 section {
@@ -39,12 +40,21 @@ section {
     padding: 0 20px;
 }
 
+#id-advice {
+    font-weight: 500;
+}
+
+#text-advice {
+    font-weight: 700;
+}
+
 section h5 {
     color: var(--neon-green);
     font-weight: 600;
     letter-spacing: 5px;
     margin: 50px 0 0 0;
     text-transform: uppercase;
+    width: 139.78px;
 }
 
 section p {
@@ -52,6 +62,7 @@ section p {
     color: var(--light-cyan);
     font-weight: 700;
     font-size: 28px;
+    height: 114px;
     margin: 0;
     max-width: 460px;
     text-align: center;
@@ -71,7 +82,7 @@ section button {
     height: 60px;
     outline: none;
     position: relative;
-    top: 26px;
+    top: 30px;
     width: 60px;
 }
 
@@ -81,11 +92,11 @@ section button:hover {
 }
 
 footer {
-    bottom: 0;
+    top: 28vh;
     color: var(--light-cyan);
-    position: fixed;
+    position: relative;
     text-align: center;
-    width: 95vw;
+    width: 100%;
 }
 
 footer a {
