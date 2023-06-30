@@ -1,0 +1,27 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        min-height: 95vh;
+    }
+
+    main {
+        padding: 40px 0 0 0;
+        height: auto;
+    }
+
+    section h5 {
+        margin-bottom: 0;
+    }
+
+    img {
+        content: url(/images/pattern-divider-mobile.svg);
+    }
+
+    button {
+        bottom: -30px;
+        position: relative;
+    }
+
+    footer {
+        padding-bottom: 1rem;
+    }
+}
