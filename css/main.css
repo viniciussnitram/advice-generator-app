@@ -79,8 +79,13 @@ button {
 }
 
 button:hover {
-    cursor: pointer;
     box-shadow: 0 0 35px rgba(82, 255, 168, 0.7);
+    cursor: pointer;
+    transition: box-shadow 0.7s;
+}
+
+button:not(:hover) {
+    transition: box-shadow 3s;
 }
 
 footer {
