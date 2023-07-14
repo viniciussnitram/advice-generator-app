@@ -4,6 +4,7 @@
     }
 
     main {
+        transform: translate(-50%, -60%);
         margin: auto;
         padding: 40px 20px 0 20px;
         height: 369px;

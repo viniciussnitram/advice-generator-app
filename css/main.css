@@ -17,7 +17,6 @@
 
 body {
     background-color: var(--dark-blue);
-    overflow-y: visible;
 }
 
 main {
@@ -91,6 +90,11 @@ footer {
     position: absolute;
     text-align: center;
     width: 100%;
+}
+
+footer p {
+    width: 90%;
+    margin: auto;
 }
 
 footer a {
