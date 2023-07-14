@@ -19,6 +19,6 @@
     }
 
     img {
-        content: url(/images/pattern-divider-mobile.svg);
+        content: url(../images/pattern-divider-mobile.svg);
     }
 }
