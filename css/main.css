@@ -85,7 +85,7 @@ button:hover {
 }
 
 footer {
-    bottom: 0px;
+    bottom: 0;
     color: var(--light-cyan);
     padding: 20px 0;
     position: absolute;
