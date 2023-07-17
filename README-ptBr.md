@@ -35,7 +35,7 @@ Os usuários deverão ser capazes de:
 
 ### Links
 
-- Solução no Frontend Mentor: [Solução Frontend Mentor](https://your-solution-url.com)
+- Solução no Frontend Mentor: [Solução Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-using-html5-css3-js-flexbox-axios-SVdhLnAQxT)
 - Site da Solução: [Github Pages](https://viniciussnitram.github.io/advice-generator-app/)
 
 ## Meu processo

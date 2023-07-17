@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Frontend Mentor Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Frontend Mentor Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/advice-generator-app-using-html5-css3-js-flexbox-axios-SVdhLnAQxT)
 - Solution URL: [Github Pages](https://viniciussnitram.github.io/advice-generator-app/)
 
 ## My process
