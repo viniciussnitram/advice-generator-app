@@ -1,3 +1,6 @@
+# English Documentation
+[EN](https://github.com/viniciussnitram/advice-generator-app/blob/main/README.md)
+
 # Frontend Mentor - Solução do Gerador de Conselhos
 
 Essa é uma solução para o [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor Challenges te ajuda a melhorar suas "coding skills" construindo projetos realistas.
