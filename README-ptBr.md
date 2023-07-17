@@ -26,7 +26,8 @@ Os usuários deverão ser capazes de:
 
 - ✅ Visualizar o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo (responsividade);
 - ✅ Visualizar os estados de foco para todos os elementos interativos na página;
-- ✅ Gerar um novo conselho ao clicar no ícone do dado.
+- ✅ Gerar um novo conselho ao clicar no ícone do dado;
+- ✅ Copiar o conselho para o clipboard (isso é um desafio a mais, achei interessante adicionar).
 
 ### Screenshot
 
