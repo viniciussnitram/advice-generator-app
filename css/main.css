@@ -50,6 +50,40 @@ section h5, h5 span {
     text-transform: uppercase;
 }
 
+@keyframes copy-effect {
+    from {
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 1;
+    }
+    to {
+        top: 20%;
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+}
+
+#copy-advice {
+    display: none;
+}
+
+.copy-advice-animation {
+    animation-duration: 2s;
+    animation-name: copy-effect;
+    background-color: var(--light-cyan);
+    border: none;
+    border-radius: 5px;
+    color: var(--dark-blue);
+    font-weight: 600;
+    outline: none;
+    padding: 10px;
+    position: absolute;
+}
+
+.hidden-copy-advice {
+    display: none;
+}
+
 section p {
     color: var(--light-cyan);
     display: grid;
@@ -58,6 +92,10 @@ section p {
     place-items: center;
     text-align: center;
     width: 100%;
+}
+
+section p:hover {
+    cursor: pointer;
 }
 
 section img {
